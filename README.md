@@ -1,5 +1,7 @@
 # Framework Foundation
 
-Una de las mejores funcionalidades de Foundation es su grilla. Descubre en qué impactan las últimas actualizaciones.
+### Espaciado dentro de las grillas
+
+https://get.foundation/sites/docs/media-queries.html
 
 https://get.foundation/sites/docs/xy-grid.html
