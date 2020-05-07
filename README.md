@@ -1,13 +1,5 @@
 # Framework Foundation
 
-para incorporar iconos lo hacemos descargando el archivo la sigiente pagina:
+Una de las mejores funcionalidades de Foundation es su grilla. Descubre en qué impactan las últimas actualizaciones.
 
-https://zurb.com/playground/foundation-icon-fonts-3
-
-La descomprimimos y copiamos el archivo llamado foundation-icons y la pegamos en la carpeta src→assets→fonts
-
-Para poder referenciarla lo hacemos añadiendo la sigiente etiqueta en el archivo defalt.html o en index.html
-
-```
-<link rel="stylesheet" href="{{root}}assets/fonts/foundation-icons/foundation-icons.css">
-```
+https://get.foundation/sites/docs/xy-grid.html
