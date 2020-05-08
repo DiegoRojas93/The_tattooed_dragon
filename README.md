@@ -1,21 +1,24 @@
 # Framework Foundation
 
-### Agregando el listado de productos
+### Agregando un menú lateral off-canvas
 
-Es muy abitual que cuando escribimos codigo en foundation se cree una grilla dentro de otra, esto es llamado nesting, pero hacerlo demaciadas veces se vuelve muy inicesario.
+Foundation tiene componentes para que incorpores elementos off-canvas de navegación, Off-canvas significa todo aquello que está fuera de tu visión.
 
-https://get.foundation/sites/docs/grid.html#nesting
-Hay un truco en Foundation que para hacer un que una celda repina N cantidad de veces con solamente un codigo, eso se puede hacer con los Handlebars!
+Esto quiere decir que podemos hacer que aparezca un menú desplegable de forma lateral haciéndolo aparecer con un solo click. Por ejemplo un botón de menú o un burger button.
 
-```
-{{repeat 25}}
-  codigo...
-{{/repeat}}
-```
-
-Foundation al igual que Boostrap podemos hacer badges o asi tambien llamados labels
+https://get.foundation/sites/docs/off-canvas.html
 
 ```
-<span class="label">Soy un Label</span>
+<body>
+  <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+    <!-- puedes meter el listado en html-->
+  </div>
+  <div class="off-canvas-content" data-off-canvas-content>
+    <!-- Puedes poner el codigo de todo el cuerpo o body de tu html -->
+  </div>
+</body>
 ```
-https://get.foundation/sites/docs/label.html
+
+**position-left**: puedes enviar la posición de tu menú desplegable ya sea en la sigientes posiciones: -left ; -right; -top ; -bottom.
+
+**data-toggle="offCanvas"**: Este atributo debe ser añadido a la etiqueta que desee hacer la acción de aparecer el menú desplegable, Por ejemplo un botón de menú o un burger button.
